@@ -1,0 +1,15 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <!-- Warna isi Card -->
+        <shape android:shape="rectangle">
+            <solid android:color="@color/secondaryLightColor" />
+        </shape>
+    </item>
+    <item android:left="1dp" android:right="1dp" android:top="1dp" android:bottom="1dp">
+        <!-- Garis tepi Card -->
+        <shape android:shape="rectangle">
+            <stroke android:width="2dp" android:color="@color/textColor" />
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+</layer-list>
